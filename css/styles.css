@@ -1,5 +1,5 @@
 html {
-    background-image: url(../_images/bg.png);
+    background-image: url(../images/bg.png);
     display: table;
     margin: auto;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 .border {
-    background-image: url(../_images/bg2.png);
+    background-image: url(../images/bg2.png);
     border: 4px silver ridge;
     padding: 1em;
     margin: 3em;
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-image: url(../_images/bg2.png);
+    background-image: url(../images/bg2.png);
     min-height: 15em;
     border: 4px silver ridge;
     padding: 1em;
@@ -63,7 +63,7 @@ p {
 }
 
 .hilight {
-    background-image: url(../_images/bg3.png);
+    background-image: url(../images/bg3.png);
     border: 3px silver ridge;
     max-width: 50em;
     box-shadow: 1px 1px 2em grey;
