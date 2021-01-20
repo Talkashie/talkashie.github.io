@@ -15,7 +15,7 @@ body {
     border: 4px silver ridge;
     padding: 1em;
     margin: 3em;
-    max-width: 50em;
+    max-width: 55em;
     box-shadow: 1px 1px 2em grey;
 }
 
@@ -60,18 +60,12 @@ p {
 
     list-style: outside;
     display: inline;
-    padding: 14px 16px;
+    padding: 2px;
+    transition-duration: 0.4s;
 }
 
-.hilight {
-    background-image: url(../images/bg3.png);
-    border: 3px silver ridge;
-    max-width: 50em;
-    box-shadow: 1px 1px 2em grey;
-    list-style: outside;
-    display: inline;
-    padding: 14px 16px;
-}
+
+
 
 h1,
 h2,
@@ -87,5 +81,45 @@ li {
 
 header,
 section {
-    min-width: 35em;
+    max-width: 90em;
+    min-width: 45em;
+}
+
+a:link,
+a:visited {
+    background-color: rgba(255, 255, 255, 0.53);
+    color: black;
+    border: 2px ridge silver;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    display: inline;
+    box-shadow: 1px 1px 0.5em grey;
+    text-shadow: 1px 1px 2px white;
+    
+}
+
+a:hover {
+    background-color: rgba(124, 93, 34, 0.15);
+    box-shadow: 1px 1px 1em rgba(255, 255, 255, 0.53);
+}
+
+a.hilight:link,
+a.hilight:visited {
+    color: black;
+    border: 2px ridge silver;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    display: inline;
+    box-shadow: 1px 1px 0.5em grey;
+    text-shadow: 1px 1px 2px white;
+    background-color: rgba(247, 212, 147, 0.64);
+}
+
+a.hilight:hover {
+    background-color: rgba(124, 93, 34, 0.15);
+    box-shadow: 1px 1px 1em rgba(255, 255, 255, 0.53);
 }
